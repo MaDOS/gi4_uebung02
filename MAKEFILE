@@ -20,3 +20,8 @@ clean:
 install:
 	cp editor /usr/bin/editor
 	chmod 555 /usr/bin/editor
+
+depend:
+	${CC} -MM main.c > dependencies
+	${CC} -c 'cat depedencies | grep -l *.c'
+	${CC} -o editor 'ls | grep -l *.o'
