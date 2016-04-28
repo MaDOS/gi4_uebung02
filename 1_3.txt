@@ -1,0 +1,1 @@
+Änderungen an main.c betreffen input.o nicht. input.o ist jedoch abhängig von input.c. Ist diese also veraltet und muss neukompiliert werden muss auch main neu erzeugt werden.
