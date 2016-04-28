@@ -12,3 +12,11 @@ input.o: input.c types.h
 	${CC} -c input.c
 
 utils: types.h defs.h
+
+clean:
+	rm editor
+	rm %.o
+
+install:
+	cp editor /usr/bin/editor
+	chmod 555 /usr/bin/editor
