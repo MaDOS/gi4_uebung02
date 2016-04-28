@@ -1,0 +1,1 @@
+Nichts was nicht passieren sollte. Make findet das makefile und versucht die dem target zugeordneten Aktionen auszuführen.
