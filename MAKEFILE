@@ -1,0 +1,14 @@
+CC = gcc
+CFLAGS = -Wall -g
+OBJ = main.o input.o
+
+editor: ${OBJ} utils
+	${CC} -o editor main.o input.o
+
+main.o: main.c input utils
+	${CC} -c main.c
+
+input.o: input.c types.h
+	${CC} -c input.c
+
+utils: types.h defs.h
