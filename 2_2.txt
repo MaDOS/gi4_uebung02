@@ -1,0 +1,9 @@
+Little Endian: (Links)
+i: DEADBEEF
+s: 401
+c: 7
+
+Big Endian: (Rechts)
+i: FEEBDAED
+s: 104
+c: 7
